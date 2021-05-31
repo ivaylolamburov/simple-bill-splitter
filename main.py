@@ -24,6 +24,6 @@ else:
         for y in friends:
             friends[y] = price_to_pay
         friends[lucky_friend] = 0
-        print(friends)
     else:
         print('No one is going to be lucky')
+    print(friends)
